@@ -7,6 +7,10 @@ import java.util.Random;
 *
 * (Deliberately contains bugs.)
 */
+
+//Kijavítottam a társam által módosított területeket.
+
+
 public class TorpedoStore {
 
 
@@ -57,6 +61,7 @@ public class TorpedoStore {
 
     return success;
   }
+
 
   public boolean isEmpty(){
     return this.torpedoCount <= 0;
